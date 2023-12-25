@@ -1,0 +1,266 @@
+
+.university-section {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  align-items: center;
+  max-width: 1280px;
+  border-radius: 10px;
+  margin-left: 40px;
+  background-color: #FFFACD !important;
+  margin-top: 80px;
+  justify-items: center;
+  padding: 20px;
+  height: 100%;
+  position: relative;
+}
+
+.card:hover {
+  background-color: #ddd;
+}
+
+.body-inside-section {
+  flex-direction: column;
+  border-radius: 10px;
+  color: #000000;
+  position: relative;
+}
+
+.services {
+  background-image: url(../../assets/textura-reciclar.avif);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 35px;
+  background-position: center;
+}
+
+.carousel- {
+  width: 80%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.cards-container {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 300px;
+  padding: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.card img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.services > h4 {
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .university-section {
+      margin-left: 5px;
+      margin-right: 5px;
+      display: block;
+  }
+
+  .insert {
+      width: 40%;
+      margin-left: 30%;
+  }
+}
+
+.d-flex {
+  display: -webkit-box;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.d-flex img {
+  width: 80%;
+  height: 80%;
+  margin: 9% 10%;
+  transition: transform 2.0s;
+}
+
+.d-flex > img:hover {
+  transform: scale(1.1);
+}
+
+.insert {
+  background-color: #006400;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  transition: .3s ease all;
+  transform: scale(1) rotate(-1deg);
+  opacity: 1;
+  color: #fff;
+  margin: 8px 5px;
+  margin-left: 40%;
+  margin-top: 25px;
+  border-radius: 7px;
+}
+
+.mainbutton {
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: transform 5.9s;
+}
+
+.mainbutton:hover {
+  transform: scale(0.9);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.maps-all {
+  margin-top: 25px;
+}
+
+.body-inside-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.last-card {
+  max-width: 1280px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../../assets/plano-fundo.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.last-card-body {
+  height: auto !important;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 100%;
+  min-height: 160px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 0;
+}
+
+.last-card-body p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.last-card-body strong {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif !important;
+  text-align: center;
+}
+
+.last-form button {
+  position: relative;
+  width: 90%;
+  background-color: rgb(5, 69, 124);
+  text-align: center;
+  margin: 12px 0px 0px;
+  padding: 0px;
+  transition: all 0.2s ease 0s;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 1;
+  min-height: 50px;
+  max-height: 53px;
+  margin: 5px 6px 7px;
+  left: -15px;
+  font-size: 15px;
+  color: #e9f0ff;
+}
+
+.form-input input {
+  position: relative;
+  width: 100%;
+  padding: 0px 8px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  height: inherit;
+  left: -15px;
+  outline: none;
+  margin: 5px 6px;
+  border-radius: 5px;
+  border: solid #e9f0ff 1px;
+  width: 450px;
+}
+
+.form-last {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: auto;
+  z-index: 1;
+}
+
+footer {
+  position: relative;
+  top: 25px;
+  height: fit-content;
+  margin: auto;
+  padding: 1rem;
+  background-color: #333333;
+  text-align: center;
+  font-family: 'Poppins', sans-serif !important;
+  color: #fff;
+  border-bottom-right-radius: .5em;
+  border-radius: 5px;
+}

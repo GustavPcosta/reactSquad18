@@ -1,0 +1,40 @@
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../assets/Design\ sem\ nome\ \(8\).jpg);
+    padding-top: 50px;
+    min-height: 375px;
+    position: relative;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-carousel {
+    width: 450px;
+}
+
+.logistica {
+    width: 340px;
+}
+
+.maquina {
+    width: 347px;
+}
+
+@media (max-width: 800px) {
+    .img-carousel {
+        width: 100%; 
+    }
+
+    .logistica,
+    .maquina {
+        width: 100%;
+        max-width: 100%; 
+    }
+}
+
+

@@ -1,0 +1,44 @@
+
+.color-nav {
+    background-color: #006400;
+}
+
+.color-name-white {
+    color: white;
+}
+
+#collapsible-nav-dropdown {
+    color: white;
+}
+
+.logopng {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 56px;
+    height: 55px;
+}
+
+.cadastro {
+    margin-left: 17px;
+}
+
+@media (max-width: 768px) {
+    .color-nav {
+        background-color: #006400; 
+    }
+
+    .color-name-white {
+        color: white; 
+    }
+
+    #collapsible-nav-dropdown {
+        color: white; 
+    }
+
+    .cadastro {
+        margin-left: 0; 
+    }
+}
