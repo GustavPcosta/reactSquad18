@@ -7,7 +7,7 @@ function Menu(){
     return(
         <div className='body'>
 
-            <div className="container">
+            <div className="container-">
             <NavBarComponentes/>
         <div className="row">
             <div className="subtitle">
@@ -50,7 +50,7 @@ function Menu(){
                     </div>
                     <div className="profile-content">
                         <h2 className="title">
-                            <a href="./empresa" class="link">Empresas</a>
+                            <a href="./empresa" class="link">Associação</a>
                         </h2>
                         
                     </div>

@@ -10,7 +10,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Slide(){
     return(
        
-            <Carousel className='carousel'>
+      <Carousel className='carousel'>
       <Carousel.Item interval={1000}>
 
         <img className='img-carousel' src={gestao} alt='logo'></img>
@@ -31,7 +31,7 @@ function Slide(){
       <Carousel.Item>
       <img className='img-carousel maquina' src={maquina} alt='logo'></img>
         
-        <Carousel.Caption className='carousel-second    '>
+        <Carousel.Caption className='carousel-second'>
           <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.

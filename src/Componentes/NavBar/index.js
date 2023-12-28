@@ -23,6 +23,15 @@ function NavBarComponentes(){
               <NavDropdown.Item href="./faleConosco">
                 Fale Conosoco
               </NavDropdown.Item>
+              <NavDropdown.Item href="listAssociacao">
+                Lista das Associações
+              </NavDropdown.Item>
+              <NavDropdown.Item href="listCatador">
+                Lista dos Catadores
+              </NavDropdown.Item>
+              <NavDropdown.Item href="listDoador">
+                Lista dos Doadores
+              </NavDropdown.Item> 
             </NavDropdown>
           </Nav>
           <Nav.Link href="./login" className='color-name-white'>Login</Nav.Link>

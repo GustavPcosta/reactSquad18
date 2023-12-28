@@ -1,0 +1,78 @@
+
+
+.backdrop-associacao {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(16, 15, 15, 0.56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-associacao {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+.modal-associacao h2 {
+  margin-bottom: 20px;
+}
+
+
+.form-edit {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-edit input {
+  height: 44px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 0px 12px;
+  border: 1.5px solid #858585;
+  outline: none;
+}
+
+
+.btn-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+.color-green,
+.color-redd {
+  height: 48px;
+  width: 48%;
+  border-radius: 24px;
+  padding: 14px 16px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+
+.color-green {
+  background-color: rgba(16, 81, 54);
+}
+
+
+.color-redd {
+  background-color: rgba(175, 23, 23);
+}
+
+
+.color-green:hover,
+.color-redd:hover {
+  opacity: 0.8;
+}
